@@ -1,12 +1,12 @@
 {
-  "name": "nest-hackathon-starter",
+  "name": "attendify-backend",
   "version": "0.1.0",
-  "description": "Hackathon starter project for NestJS.",
+  "description": "Attendify backend API",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ahmetuysal/nest-hackathon-starter"
+    "url": "https://github.com/Mhmdaris15/attendify-backend"
   },
-  "author": "Ahmet Uysal",
+  "author": "Aris Septanugroho",
   "license": "MIT",
   "scripts": {
     "build": "rimraf dist && tsc -p tsconfig.build.json",

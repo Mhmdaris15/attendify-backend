@@ -19,9 +19,9 @@ async function bootstrap() {
 
   // Swagger API Documentation
   const options = new DocumentBuilder()
-    .setTitle('NestJS Hackathon Starter by @ahmetuysal')
-    .setDescription('NestJS Hackathon Starter API description')
-    .setVersion('0.1.0')
+    .setTitle('Attendify Backend API')
+    .setDescription('The API for Attendify Application')
+    .setVersion('1.0.0')
     .addBearerAuth()
     .build();
   const document = SwaggerModule.createDocument(app, options);

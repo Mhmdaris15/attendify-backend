@@ -1,6 +1,6 @@
 export default {
   jwt: {
-    secretOrKey: '__JWT_SECRET_KEY__',
+    secretOrKey: 'gKXxpjFoSn8QPuc',
     expiresIn: 86400,
   },
   // You can also use any other email sending services
@@ -19,15 +19,15 @@ export default {
   },
   // these are used in the mail templates
   project: {
-    name: '__YOUR_PROJECT_NAME__',
-    address: '__YOUR_PROJECT_ADDRESS__',
+    name: 'Attendify Backend',
+    address: 'Bogor, Indonesia',
     logoUrl: 'https://__YOUR_PROJECT_LOGO_URL__',
-    slogan: 'Made with ❤️ in Istanbul',
+    slogan: 'Attendify Backend',
     color: '#123456',
     socials: [
-      ['GitHub', '__Project_GitHub_URL__'],
-      ['__Social_Media_1__', '__Social_Media_1_URL__'],
-      ['__Social_Media_2__', '__Social_Media_2_URL__'],
+      ['GitHub', 'https://github.com/Mhmdaris15/attendify-backend'],
+      ['https://www.instagram.com/mhmdaris15/', 'https://www.linkedin.com/in/muhammad-aris-septanugroho/'],
+      // ['__Social_Media_2__', '__Social_Media_2_URL__'],
     ],
     url: 'http://localhost:4200',
     mailVerificationUrl: 'http://localhost:3000/auth/verify',
